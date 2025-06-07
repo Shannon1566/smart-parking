@@ -1,2 +1,9 @@
-img_output/*
-!img/.gitkeep
+img_output/*.jpg
+img_output/*.png
+img_output/*.jpeg
+img_output/*.bmp
+img_output/*.gif
+img_output/*.tiff
+img_output/*.webp
+img_output/*.svg
+img_output/*.ico
