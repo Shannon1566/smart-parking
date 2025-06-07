@@ -122,6 +122,6 @@ if __name__ == "__main__":
     # cv2.destroyAllWindows()
     
     # 保存结果
-    output_path = 'img/test1_bev.png'
+    output_path = 'img_output/test1_bev.png'
     cv2.imwrite(output_path, bev)
     print(f"鸟瞰图已保存到: {output_path}")
