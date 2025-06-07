@@ -6,7 +6,7 @@ import os
 import numpy as np
 import cv2
 
-def get_bev(img, K, T, bev_res=0.005, bev_x_range=(-3, 3), bev_y_range=(1.2, 5)):
+def get_bev(img, K, T, bev_res=0.001, bev_x_range=(-1.5, 1.5), bev_y_range=(1.2, 2.5)):
     """
     根据相机内参 K 和外参 T，从图像生成鸟瞰图。
     
